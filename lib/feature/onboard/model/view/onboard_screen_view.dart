@@ -92,9 +92,8 @@ class _OnBoardScreenState extends State<OnBoardScreen> {
             ),
             Text(
               models[i].description,
-              style: context.textTheme.headline6?.copyWith(
-                textBaseline: TextBaseline.ideographic,
-              ),
+              style: context.textTheme.headline6,
+              textAlign: TextAlign.center,
             ),
             Padding(
               padding: context.verticalPaddingLow,
